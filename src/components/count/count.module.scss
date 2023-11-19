@@ -1,0 +1,20 @@
+
+.count {
+    font-size: 2rem;
+    margin-top: 0;
+    color: #333333
+}
+
+.action {
+    background-color: blueviolet;
+    color: #FFFFFF;
+
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    &--disabled {
+        background-color: #ccc;
+        cursor: initial;
+    }
+}
